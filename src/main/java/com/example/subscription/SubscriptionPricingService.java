@@ -10,7 +10,7 @@ import java.math.RoundingMode;
  * <p>Business rules:
  * <ul>
  *   <li>BASIC = $50.00/month, PRO = $150.00/month, ENTERPRISE = $500.00/month.</li>
- *   <li>More than 12 months (and 36 or fewer) applies a 10% longevity discount.</li>
+ *   <li>More than 12 months and fewer than 36 months applies a 10% longevity discount.</li>
  *   <li>More than 36 months applies a 25% longevity discount.</li>
  *   <li>Exactly 12 or exactly 36 months receives no longevity discount.</li>
  *   <li>SAVE20 deducts a flat $20.00 after the longevity percentage discount.</li>
@@ -21,12 +21,11 @@ import java.math.RoundingMode;
  *       {@link IllegalArgumentException}.</li>
  *   <li>The final price is floored at $0.00 and rounded HALF_UP to two decimal places.</li>
  * </ul>
+ *
+ * <p>Calculation flow: validate input -> resolve base tier price -> apply longevity
+ * discount -> apply voucher -> apply zero floor -> round HALF_UP to two decimals.
  */
 public class SubscriptionPricingService {
-
-    private static final BigDecimal BASIC_BASE_PRICE = new BigDecimal("50.00");
-    private static final BigDecimal PRO_BASE_PRICE = new BigDecimal("150.00");
-    private static final BigDecimal ENTERPRISE_BASE_PRICE = new BigDecimal("500.00");
 
     private static final BigDecimal TEN_PERCENT_DISCOUNT_MULTIPLIER = new BigDecimal("0.90");
     private static final BigDecimal TWENTY_FIVE_PERCENT_DISCOUNT_MULTIPLIER = new BigDecimal("0.75");
@@ -35,10 +34,6 @@ public class SubscriptionPricingService {
     private static final BigDecimal SAVE20_DEDUCTION = new BigDecimal("20.00");
 
     private static final BigDecimal ZERO_FLOOR = new BigDecimal("0.00");
-
-    private static final String TIER_BASIC = "BASIC";
-    private static final String TIER_PRO = "PRO";
-    private static final String TIER_ENTERPRISE = "ENTERPRISE";
 
     private static final String VOUCHER_SAVE20 = "SAVE20";
     private static final String VOUCHER_HALFPRICE = "HALFPRICE";
@@ -51,28 +46,12 @@ public class SubscriptionPricingService {
             throw new IllegalArgumentException("months must not be negative: " + months);
         }
 
-        BigDecimal basePrice = resolveBasePrice(tierCode);
+        BigDecimal basePrice = SubscriptionTier.fromCode(tierCode).basePrice();
         BigDecimal afterLongevityDiscount = applyLongevityDiscount(basePrice, months);
         BigDecimal afterVoucher = applyVoucher(afterLongevityDiscount, voucherCode);
 
         BigDecimal floored = afterVoucher.max(ZERO_FLOOR);
         return floored.setScale(2, RoundingMode.HALF_UP);
-    }
-
-    private BigDecimal resolveBasePrice(String tierCode) {
-        if (tierCode == null) {
-            throw new IllegalArgumentException("tierCode must not be null");
-        }
-        switch (tierCode) {
-            case TIER_BASIC:
-                return BASIC_BASE_PRICE;
-            case TIER_PRO:
-                return PRO_BASE_PRICE;
-            case TIER_ENTERPRISE:
-                return ENTERPRISE_BASE_PRICE;
-            default:
-                throw new IllegalArgumentException("Unknown tier code: " + tierCode);
-        }
     }
 
     private BigDecimal applyLongevityDiscount(BigDecimal basePrice, int months) {
@@ -89,14 +68,10 @@ public class SubscriptionPricingService {
         if (voucherCode == null) {
             return amount;
         }
-        switch (voucherCode) {
-            case VOUCHER_SAVE20:
-                return amount.subtract(SAVE20_DEDUCTION);
-            case VOUCHER_HALFPRICE:
-                return amount.multiply(HALF_MULTIPLIER);
-            default:
-                throw new InvalidVoucherException("Unknown voucher code: " + voucherCode);
-        }
+        return switch (voucherCode) {
+            case VOUCHER_SAVE20 -> amount.subtract(SAVE20_DEDUCTION);
+            case VOUCHER_HALFPRICE -> amount.multiply(HALF_MULTIPLIER);
+            default -> throw new InvalidVoucherException("Unknown voucher code: " + voucherCode);
+        };
     }
 }
-
