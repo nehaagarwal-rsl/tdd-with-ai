@@ -1,0 +1,4 @@
+ prompts/REFACTOR-refactoring-prompt.md             | 52 ++++++++++++++++++++++
+ .../subscription/SubscriptionPricingService.java   | 45 +++++--------------
+ .../com/example/subscription/SubscriptionTier.java | 47 +++++++++++++++++++
+ 3 files changed, 109 insertions(+), 35 deletions(-)

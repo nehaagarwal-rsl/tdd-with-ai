@@ -1,0 +1,270 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ----------------------< com.example:tdd-with-ai >-----------------------
+[INFO] Building tdd-with-ai 1.0.0
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.3.2:clean (default-clean) @ tdd-with-ai ---
+[INFO] Deleting /private/tmp/tdd-with-ai-red/target
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ tdd-with-ai ---
+[INFO] skip non existing resourceDirectory /private/tmp/tdd-with-ai-red/src/main/resources
+[INFO] skip non existing resourceDirectory /private/tmp/tdd-with-ai-red/src/main/resources
+[INFO] 
+[INFO] --- compiler:3.13.0:compile (default-compile) @ tdd-with-ai ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ tdd-with-ai ---
+[INFO] skip non existing resourceDirectory /private/tmp/tdd-with-ai-red/src/test/resources
+[INFO] 
+[INFO] --- compiler:3.13.0:testCompile (default-testCompile) @ tdd-with-ai ---
+[INFO] Recompiling the module because of changed source code.
+[INFO] Compiling 1 source file with javac [debug parameters release 17] to target/test-classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /private/tmp/tdd-with-ai-red/src/test/java/SubscriptionPricingServiceTest.java:[11,9] cannot find symbol
+  symbol:   class SubscriptionPricingService
+  location: class SubscriptionPricingServiceTest
+[ERROR] /private/tmp/tdd-with-ai-red/src/test/java/SubscriptionPricingServiceTest.java:[11,50] cannot find symbol
+  symbol:   class SubscriptionPricingService
+  location: class SubscriptionPricingServiceTest
+[ERROR] /private/tmp/tdd-with-ai-red/src/test/java/SubscriptionPricingServiceTest.java:[20,9] cannot find symbol
+  symbol:   class SubscriptionPricingService
+  location: class SubscriptionPricingServiceTest
+[ERROR] /private/tmp/tdd-with-ai-red/src/test/java/SubscriptionPricingServiceTest.java:[20,50] cannot find symbol
+  symbol:   class SubscriptionPricingService
+  location: class SubscriptionPricingServiceTest
+[ERROR] /private/tmp/tdd-with-ai-red/src/test/java/SubscriptionPricingServiceTest.java:[29,9] cannot find symbol
+  symbol:   class SubscriptionPricingService
+  location: class SubscriptionPricingServiceTest
+[ERROR] /private/tmp/tdd-with-ai-red/src/test/java/SubscriptionPricingServiceTest.java:[29,50] cannot find symbol
+  symbol:   class SubscriptionPricingService
+  location: class SubscriptionPricingServiceTest
+[ERROR] /private/tmp/tdd-with-ai-red/src/test/java/SubscriptionPricingServiceTest.java:[38,9] cannot find symbol
+  symbol:   class SubscriptionPricingService
+  location: class SubscriptionPricingServiceTest
+[ERROR] /private/tmp/tdd-with-ai-red/src/test/java/SubscriptionPricingServiceTest.java:[38,50] cannot find symbol
+  symbol:   class SubscriptionPricingService
+  location: class SubscriptionPricingServiceTest
+[ERROR] /private/tmp/tdd-with-ai-red/src/test/java/SubscriptionPricingServiceTest.java:[47,9] cannot find symbol
+  symbol:   class SubscriptionPricingService
+  location: class SubscriptionPricingServiceTest
+[ERROR] /private/tmp/tdd-with-ai-red/src/test/java/SubscriptionPricingServiceTest.java:[47,50] cannot find symbol
+  symbol:   class SubscriptionPricingService
+  location: class SubscriptionPricingServiceTest
+[ERROR] /private/tmp/tdd-with-ai-red/src/test/java/SubscriptionPricingServiceTest.java:[56,9] cannot find symbol
+  symbol:   class SubscriptionPricingService
+  location: class SubscriptionPricingServiceTest
+[ERROR] /private/tmp/tdd-with-ai-red/src/test/java/SubscriptionPricingServiceTest.java:[56,50] cannot find symbol
+  symbol:   class SubscriptionPricingService
+  location: class SubscriptionPricingServiceTest
+[ERROR] /private/tmp/tdd-with-ai-red/src/test/java/SubscriptionPricingServiceTest.java:[65,9] cannot find symbol
+  symbol:   class SubscriptionPricingService
+  location: class SubscriptionPricingServiceTest
+[ERROR] /private/tmp/tdd-with-ai-red/src/test/java/SubscriptionPricingServiceTest.java:[65,50] cannot find symbol
+  symbol:   class SubscriptionPricingService
+  location: class SubscriptionPricingServiceTest
+[ERROR] /private/tmp/tdd-with-ai-red/src/test/java/SubscriptionPricingServiceTest.java:[74,9] cannot find symbol
+  symbol:   class SubscriptionPricingService
+  location: class SubscriptionPricingServiceTest
+[ERROR] /private/tmp/tdd-with-ai-red/src/test/java/SubscriptionPricingServiceTest.java:[74,50] cannot find symbol
+  symbol:   class SubscriptionPricingService
+  location: class SubscriptionPricingServiceTest
+[ERROR] /private/tmp/tdd-with-ai-red/src/test/java/SubscriptionPricingServiceTest.java:[83,9] cannot find symbol
+  symbol:   class SubscriptionPricingService
+  location: class SubscriptionPricingServiceTest
+[ERROR] /private/tmp/tdd-with-ai-red/src/test/java/SubscriptionPricingServiceTest.java:[83,50] cannot find symbol
+  symbol:   class SubscriptionPricingService
+  location: class SubscriptionPricingServiceTest
+[ERROR] /private/tmp/tdd-with-ai-red/src/test/java/SubscriptionPricingServiceTest.java:[92,9] cannot find symbol
+  symbol:   class SubscriptionPricingService
+  location: class SubscriptionPricingServiceTest
+[ERROR] /private/tmp/tdd-with-ai-red/src/test/java/SubscriptionPricingServiceTest.java:[92,50] cannot find symbol
+  symbol:   class SubscriptionPricingService
+  location: class SubscriptionPricingServiceTest
+[ERROR] /private/tmp/tdd-with-ai-red/src/test/java/SubscriptionPricingServiceTest.java:[101,9] cannot find symbol
+  symbol:   class SubscriptionPricingService
+  location: class SubscriptionPricingServiceTest
+[ERROR] /private/tmp/tdd-with-ai-red/src/test/java/SubscriptionPricingServiceTest.java:[101,50] cannot find symbol
+  symbol:   class SubscriptionPricingService
+  location: class SubscriptionPricingServiceTest
+[ERROR] /private/tmp/tdd-with-ai-red/src/test/java/SubscriptionPricingServiceTest.java:[110,9] cannot find symbol
+  symbol:   class SubscriptionPricingService
+  location: class SubscriptionPricingServiceTest
+[ERROR] /private/tmp/tdd-with-ai-red/src/test/java/SubscriptionPricingServiceTest.java:[110,50] cannot find symbol
+  symbol:   class SubscriptionPricingService
+  location: class SubscriptionPricingServiceTest
+[ERROR] /private/tmp/tdd-with-ai-red/src/test/java/SubscriptionPricingServiceTest.java:[119,9] cannot find symbol
+  symbol:   class SubscriptionPricingService
+  location: class SubscriptionPricingServiceTest
+[ERROR] /private/tmp/tdd-with-ai-red/src/test/java/SubscriptionPricingServiceTest.java:[119,50] cannot find symbol
+  symbol:   class SubscriptionPricingService
+  location: class SubscriptionPricingServiceTest
+[ERROR] /private/tmp/tdd-with-ai-red/src/test/java/SubscriptionPricingServiceTest.java:[122,17] cannot find symbol
+  symbol:   class InvalidVoucherException
+  location: class SubscriptionPricingServiceTest
+[ERROR] /private/tmp/tdd-with-ai-red/src/test/java/SubscriptionPricingServiceTest.java:[129,9] cannot find symbol
+  symbol:   class SubscriptionPricingService
+  location: class SubscriptionPricingServiceTest
+[ERROR] /private/tmp/tdd-with-ai-red/src/test/java/SubscriptionPricingServiceTest.java:[129,50] cannot find symbol
+  symbol:   class SubscriptionPricingService
+  location: class SubscriptionPricingServiceTest
+[ERROR] /private/tmp/tdd-with-ai-red/src/test/java/SubscriptionPricingServiceTest.java:[132,17] cannot find symbol
+  symbol:   class InvalidVoucherException
+  location: class SubscriptionPricingServiceTest
+[ERROR] /private/tmp/tdd-with-ai-red/src/test/java/SubscriptionPricingServiceTest.java:[139,9] cannot find symbol
+  symbol:   class SubscriptionPricingService
+  location: class SubscriptionPricingServiceTest
+[ERROR] /private/tmp/tdd-with-ai-red/src/test/java/SubscriptionPricingServiceTest.java:[139,50] cannot find symbol
+  symbol:   class SubscriptionPricingService
+  location: class SubscriptionPricingServiceTest
+[ERROR] /private/tmp/tdd-with-ai-red/src/test/java/SubscriptionPricingServiceTest.java:[148,9] cannot find symbol
+  symbol:   class SubscriptionPricingService
+  location: class SubscriptionPricingServiceTest
+[ERROR] /private/tmp/tdd-with-ai-red/src/test/java/SubscriptionPricingServiceTest.java:[148,50] cannot find symbol
+  symbol:   class SubscriptionPricingService
+  location: class SubscriptionPricingServiceTest
+[ERROR] /private/tmp/tdd-with-ai-red/src/test/java/SubscriptionPricingServiceTest.java:[158,9] cannot find symbol
+  symbol:   class SubscriptionPricingService
+  location: class SubscriptionPricingServiceTest
+[ERROR] /private/tmp/tdd-with-ai-red/src/test/java/SubscriptionPricingServiceTest.java:[158,50] cannot find symbol
+  symbol:   class SubscriptionPricingService
+  location: class SubscriptionPricingServiceTest
+[ERROR] /private/tmp/tdd-with-ai-red/src/test/java/SubscriptionPricingServiceTest.java:[168,9] cannot find symbol
+  symbol:   class SubscriptionPricingService
+  location: class SubscriptionPricingServiceTest
+[ERROR] /private/tmp/tdd-with-ai-red/src/test/java/SubscriptionPricingServiceTest.java:[168,50] cannot find symbol
+  symbol:   class SubscriptionPricingService
+  location: class SubscriptionPricingServiceTest
+[INFO] 38 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  1.355 s
+[INFO] Finished at: 2026-09-17T13:20:23+05:30
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.13.0:testCompile (default-testCompile) on project tdd-with-ai: Compilation failure: Compilation failure: 
+[ERROR] /private/tmp/tdd-with-ai-red/src/test/java/SubscriptionPricingServiceTest.java:[11,9] cannot find symbol
+[ERROR]   symbol:   class SubscriptionPricingService
+[ERROR]   location: class SubscriptionPricingServiceTest
+[ERROR] /private/tmp/tdd-with-ai-red/src/test/java/SubscriptionPricingServiceTest.java:[11,50] cannot find symbol
+[ERROR]   symbol:   class SubscriptionPricingService
+[ERROR]   location: class SubscriptionPricingServiceTest
+[ERROR] /private/tmp/tdd-with-ai-red/src/test/java/SubscriptionPricingServiceTest.java:[20,9] cannot find symbol
+[ERROR]   symbol:   class SubscriptionPricingService
+[ERROR]   location: class SubscriptionPricingServiceTest
+[ERROR] /private/tmp/tdd-with-ai-red/src/test/java/SubscriptionPricingServiceTest.java:[20,50] cannot find symbol
+[ERROR]   symbol:   class SubscriptionPricingService
+[ERROR]   location: class SubscriptionPricingServiceTest
+[ERROR] /private/tmp/tdd-with-ai-red/src/test/java/SubscriptionPricingServiceTest.java:[29,9] cannot find symbol
+[ERROR]   symbol:   class SubscriptionPricingService
+[ERROR]   location: class SubscriptionPricingServiceTest
+[ERROR] /private/tmp/tdd-with-ai-red/src/test/java/SubscriptionPricingServiceTest.java:[29,50] cannot find symbol
+[ERROR]   symbol:   class SubscriptionPricingService
+[ERROR]   location: class SubscriptionPricingServiceTest
+[ERROR] /private/tmp/tdd-with-ai-red/src/test/java/SubscriptionPricingServiceTest.java:[38,9] cannot find symbol
+[ERROR]   symbol:   class SubscriptionPricingService
+[ERROR]   location: class SubscriptionPricingServiceTest
+[ERROR] /private/tmp/tdd-with-ai-red/src/test/java/SubscriptionPricingServiceTest.java:[38,50] cannot find symbol
+[ERROR]   symbol:   class SubscriptionPricingService
+[ERROR]   location: class SubscriptionPricingServiceTest
+[ERROR] /private/tmp/tdd-with-ai-red/src/test/java/SubscriptionPricingServiceTest.java:[47,9] cannot find symbol
+[ERROR]   symbol:   class SubscriptionPricingService
+[ERROR]   location: class SubscriptionPricingServiceTest
+[ERROR] /private/tmp/tdd-with-ai-red/src/test/java/SubscriptionPricingServiceTest.java:[47,50] cannot find symbol
+[ERROR]   symbol:   class SubscriptionPricingService
+[ERROR]   location: class SubscriptionPricingServiceTest
+[ERROR] /private/tmp/tdd-with-ai-red/src/test/java/SubscriptionPricingServiceTest.java:[56,9] cannot find symbol
+[ERROR]   symbol:   class SubscriptionPricingService
+[ERROR]   location: class SubscriptionPricingServiceTest
+[ERROR] /private/tmp/tdd-with-ai-red/src/test/java/SubscriptionPricingServiceTest.java:[56,50] cannot find symbol
+[ERROR]   symbol:   class SubscriptionPricingService
+[ERROR]   location: class SubscriptionPricingServiceTest
+[ERROR] /private/tmp/tdd-with-ai-red/src/test/java/SubscriptionPricingServiceTest.java:[65,9] cannot find symbol
+[ERROR]   symbol:   class SubscriptionPricingService
+[ERROR]   location: class SubscriptionPricingServiceTest
+[ERROR] /private/tmp/tdd-with-ai-red/src/test/java/SubscriptionPricingServiceTest.java:[65,50] cannot find symbol
+[ERROR]   symbol:   class SubscriptionPricingService
+[ERROR]   location: class SubscriptionPricingServiceTest
+[ERROR] /private/tmp/tdd-with-ai-red/src/test/java/SubscriptionPricingServiceTest.java:[74,9] cannot find symbol
+[ERROR]   symbol:   class SubscriptionPricingService
+[ERROR]   location: class SubscriptionPricingServiceTest
+[ERROR] /private/tmp/tdd-with-ai-red/src/test/java/SubscriptionPricingServiceTest.java:[74,50] cannot find symbol
+[ERROR]   symbol:   class SubscriptionPricingService
+[ERROR]   location: class SubscriptionPricingServiceTest
+[ERROR] /private/tmp/tdd-with-ai-red/src/test/java/SubscriptionPricingServiceTest.java:[83,9] cannot find symbol
+[ERROR]   symbol:   class SubscriptionPricingService
+[ERROR]   location: class SubscriptionPricingServiceTest
+[ERROR] /private/tmp/tdd-with-ai-red/src/test/java/SubscriptionPricingServiceTest.java:[83,50] cannot find symbol
+[ERROR]   symbol:   class SubscriptionPricingService
+[ERROR]   location: class SubscriptionPricingServiceTest
+[ERROR] /private/tmp/tdd-with-ai-red/src/test/java/SubscriptionPricingServiceTest.java:[92,9] cannot find symbol
+[ERROR]   symbol:   class SubscriptionPricingService
+[ERROR]   location: class SubscriptionPricingServiceTest
+[ERROR] /private/tmp/tdd-with-ai-red/src/test/java/SubscriptionPricingServiceTest.java:[92,50] cannot find symbol
+[ERROR]   symbol:   class SubscriptionPricingService
+[ERROR]   location: class SubscriptionPricingServiceTest
+[ERROR] /private/tmp/tdd-with-ai-red/src/test/java/SubscriptionPricingServiceTest.java:[101,9] cannot find symbol
+[ERROR]   symbol:   class SubscriptionPricingService
+[ERROR]   location: class SubscriptionPricingServiceTest
+[ERROR] /private/tmp/tdd-with-ai-red/src/test/java/SubscriptionPricingServiceTest.java:[101,50] cannot find symbol
+[ERROR]   symbol:   class SubscriptionPricingService
+[ERROR]   location: class SubscriptionPricingServiceTest
+[ERROR] /private/tmp/tdd-with-ai-red/src/test/java/SubscriptionPricingServiceTest.java:[110,9] cannot find symbol
+[ERROR]   symbol:   class SubscriptionPricingService
+[ERROR]   location: class SubscriptionPricingServiceTest
+[ERROR] /private/tmp/tdd-with-ai-red/src/test/java/SubscriptionPricingServiceTest.java:[110,50] cannot find symbol
+[ERROR]   symbol:   class SubscriptionPricingService
+[ERROR]   location: class SubscriptionPricingServiceTest
+[ERROR] /private/tmp/tdd-with-ai-red/src/test/java/SubscriptionPricingServiceTest.java:[119,9] cannot find symbol
+[ERROR]   symbol:   class SubscriptionPricingService
+[ERROR]   location: class SubscriptionPricingServiceTest
+[ERROR] /private/tmp/tdd-with-ai-red/src/test/java/SubscriptionPricingServiceTest.java:[119,50] cannot find symbol
+[ERROR]   symbol:   class SubscriptionPricingService
+[ERROR]   location: class SubscriptionPricingServiceTest
+[ERROR] /private/tmp/tdd-with-ai-red/src/test/java/SubscriptionPricingServiceTest.java:[122,17] cannot find symbol
+[ERROR]   symbol:   class InvalidVoucherException
+[ERROR]   location: class SubscriptionPricingServiceTest
+[ERROR] /private/tmp/tdd-with-ai-red/src/test/java/SubscriptionPricingServiceTest.java:[129,9] cannot find symbol
+[ERROR]   symbol:   class SubscriptionPricingService
+[ERROR]   location: class SubscriptionPricingServiceTest
+[ERROR] /private/tmp/tdd-with-ai-red/src/test/java/SubscriptionPricingServiceTest.java:[129,50] cannot find symbol
+[ERROR]   symbol:   class SubscriptionPricingService
+[ERROR]   location: class SubscriptionPricingServiceTest
+[ERROR] /private/tmp/tdd-with-ai-red/src/test/java/SubscriptionPricingServiceTest.java:[132,17] cannot find symbol
+[ERROR]   symbol:   class InvalidVoucherException
+[ERROR]   location: class SubscriptionPricingServiceTest
+[ERROR] /private/tmp/tdd-with-ai-red/src/test/java/SubscriptionPricingServiceTest.java:[139,9] cannot find symbol
+[ERROR]   symbol:   class SubscriptionPricingService
+[ERROR]   location: class SubscriptionPricingServiceTest
+[ERROR] /private/tmp/tdd-with-ai-red/src/test/java/SubscriptionPricingServiceTest.java:[139,50] cannot find symbol
+[ERROR]   symbol:   class SubscriptionPricingService
+[ERROR]   location: class SubscriptionPricingServiceTest
+[ERROR] /private/tmp/tdd-with-ai-red/src/test/java/SubscriptionPricingServiceTest.java:[148,9] cannot find symbol
+[ERROR]   symbol:   class SubscriptionPricingService
+[ERROR]   location: class SubscriptionPricingServiceTest
+[ERROR] /private/tmp/tdd-with-ai-red/src/test/java/SubscriptionPricingServiceTest.java:[148,50] cannot find symbol
+[ERROR]   symbol:   class SubscriptionPricingService
+[ERROR]   location: class SubscriptionPricingServiceTest
+[ERROR] /private/tmp/tdd-with-ai-red/src/test/java/SubscriptionPricingServiceTest.java:[158,9] cannot find symbol
+[ERROR]   symbol:   class SubscriptionPricingService
+[ERROR]   location: class SubscriptionPricingServiceTest
+[ERROR] /private/tmp/tdd-with-ai-red/src/test/java/SubscriptionPricingServiceTest.java:[158,50] cannot find symbol
+[ERROR]   symbol:   class SubscriptionPricingService
+[ERROR]   location: class SubscriptionPricingServiceTest
+[ERROR] /private/tmp/tdd-with-ai-red/src/test/java/SubscriptionPricingServiceTest.java:[168,9] cannot find symbol
+[ERROR]   symbol:   class SubscriptionPricingService
+[ERROR]   location: class SubscriptionPricingServiceTest
+[ERROR] /private/tmp/tdd-with-ai-red/src/test/java/SubscriptionPricingServiceTest.java:[168,50] cannot find symbol
+[ERROR]   symbol:   class SubscriptionPricingService
+[ERROR]   location: class SubscriptionPricingServiceTest
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
