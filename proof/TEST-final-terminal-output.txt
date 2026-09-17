@@ -6,7 +6,6 @@
 [INFO] --------------------------------[ jar ]---------------------------------
 [INFO] 
 [INFO] --- clean:3.3.2:clean (default-clean) @ tdd-with-ai ---
-[INFO] Deleting /Users/neha.agarwal/tdd-with-ai/target
 [INFO] 
 [INFO] --- resources:3.3.1:resources (default-resources) @ tdd-with-ai ---
 [INFO] skip non existing resourceDirectory /Users/neha.agarwal/tdd-with-ai/src/main/resources
@@ -31,20 +30,20 @@
 [INFO] -------------------------------------------------------
 [INFO] Running com.example.subscription.SubscriptionPricingServiceTest
 [INFO] Running com.example.subscription.SubscriptionPricingServiceTest$ExactTwoDecimalScaleCompounding
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.031 s -- in com.example.subscription.SubscriptionPricingServiceTest$ExactTwoDecimalScaleCompounding
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.027 s -- in com.example.subscription.SubscriptionPricingServiceTest$ExactTwoDecimalScaleCompounding
 [INFO] Running com.example.subscription.SubscriptionPricingServiceTest$MinimumAchievableDocumentedPrice
-[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s -- in com.example.subscription.SubscriptionPricingServiceTest$MinimumAchievableDocumentedPrice
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s -- in com.example.subscription.SubscriptionPricingServiceTest$MinimumAchievableDocumentedPrice
 [INFO] Running com.example.subscription.SubscriptionPricingServiceTest$AdversarialEdgeCases
-[INFO] Tests run: 17, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.118 s -- in com.example.subscription.SubscriptionPricingServiceTest$AdversarialEdgeCases
+[INFO] Tests run: 17, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.119 s -- in com.example.subscription.SubscriptionPricingServiceTest$AdversarialEdgeCases
 [INFO] Running com.example.subscription.SubscriptionPricingServiceTest$InputContractValidation
-[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s -- in com.example.subscription.SubscriptionPricingServiceTest$InputContractValidation
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s -- in com.example.subscription.SubscriptionPricingServiceTest$InputContractValidation
 [INFO] Running com.example.subscription.SubscriptionPricingServiceTest$VoucherBehavior
-[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s -- in com.example.subscription.SubscriptionPricingServiceTest$VoucherBehavior
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 s -- in com.example.subscription.SubscriptionPricingServiceTest$VoucherBehavior
 [INFO] Running com.example.subscription.SubscriptionPricingServiceTest$LongevityDiscounts
 [INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s -- in com.example.subscription.SubscriptionPricingServiceTest$LongevityDiscounts
 [INFO] Running com.example.subscription.SubscriptionPricingServiceTest$BaseTierPricing
-[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s -- in com.example.subscription.SubscriptionPricingServiceTest$BaseTierPricing
-[INFO] Tests run: 0, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.205 s -- in com.example.subscription.SubscriptionPricingServiceTest
+[INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 s -- in com.example.subscription.SubscriptionPricingServiceTest$BaseTierPricing
+[INFO] Tests run: 0, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.211 s -- in com.example.subscription.SubscriptionPricingServiceTest
 [INFO] 
 [INFO] Results:
 [INFO] 
@@ -53,6 +52,6 @@
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  2.798 s
-[INFO] Finished at: 2026-09-17T13:15:40+05:30
+[INFO] Total time:  3.104 s
+[INFO] Finished at: 2026-09-17T13:51:14+05:30
 [INFO] ------------------------------------------------------------------------
